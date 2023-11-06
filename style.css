@@ -1,0 +1,87 @@
+header {
+    background-color: #333; /* Define a cor de fundo do cabeçalho como cinza escuro */
+    color: #fff; /* Define a cor do texto no cabeçalho como branco */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+    padding: 2rem 0; /* Adiciona espaço interno de 2rem no topo e na parte inferior do cabeçalho */
+    width: 100%; /* Define a largura do cabeçalho como 100% da largura da janela */
+}
+
+header nav ul {
+    display: flex; /* Faz com que os itens da lista de navegação fiquem lado a lado */
+    justify-content: center; /* Centraliza os itens horizontalmente na lista de navegação */
+}
+
+header nav li a {
+    margin: 0 10rem; /* Adiciona espaçamento horizontal de 10rem entre os links na lista de navegação */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #ccc; /* Define a cor do texto dos links como cinza */
+    font-size: 1.2rem; /* Define o tamanho da fonte dos links como 1.5rem */
+}
+
+header nav li a:hover {
+    border-bottom: 1px solid aliceblue; /* Corrige a sintaxe e define uma borda de 1px sólida com a cor aliceblue no hover */
+}
+
+h1 {
+    text-align: center; /* Centraliza o texto do título h1 */
+}
+
+.produtos {
+    margin: 2%; /* Adiciona margem de 2% ao redor da seção de produtos */
+}
+
+.produtos__lista {
+    display: flex; /* Faz com que os produtos na lista fiquem lado a lado */
+    justify-content: space-evenly; /* Espaça igualmente os produtos na lista horizontalmente */
+    flex-wrap: wrap; /* Permite que os produtos quebrem para a próxima linha quando não couberem na largura da tela */
+}
+
+.produtos__item {
+    flex: 0 1 calc(30% - 20px); /* Define as propriedades de flexibilidade dos itens da lista */
+    max-width: 20rem; /* Define a largura máxima de um item como 20rem */
+    margin: 1rem; /* Adiciona margem de 1rem ao redor de cada item */
+    border: 1px solid #ccc; /* Adiciona uma borda de 1px sólida com cor cinza */
+    padding: 0.5rem; /* Adiciona espaço interno de 0.5rem nos itens */
+    text-align: center; /* Centraliza o texto no item */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra suave */
+}
+
+.produtos__item :hover {
+    cursor: pointer;
+}
+
+.produtos__content {
+    display: flex; /* Faz com que o conteúdo dos produtos fique em coluna (vertical) */
+    flex-direction: column; /* Define a direção da coluna */
+    align-items: center; /* Centraliza verticalmente o conteúdo dos produtos */
+}
+
+img {
+    width: 100%; /* Faz com que as imagens dos produtos tenham largura de 100% */
+}
+
+.produtos__informacoes {
+    text-align: center; /* Centraliza o texto nas informações dos produtos */
+}
+
+.produtos__informacoes h4 {
+    font-size: 1.5rem; /* Define o tamanho da fonte das informações dos produtos como 1.5rem */
+}
+
+.produtos__informacoes s {
+    font-size: 1rem; /* Define o tamanho da fonte do risco no preço como 1rem */
+    color: red; /* Define a cor do risco no preço como vermelho */
+    margin-left: 0.5rem; /* Adiciona uma margem à esquerda entre o risco e o preço */
+}
+
+footer {
+    background-color: #333; /* Define a cor de fundo do rodapé como cinza escuro */
+    color: #fff; /* Define a cor do texto no rodapé como branco */
+    text-align: center; /* Centraliza o texto no rodapé */
+    padding: 10px 0; /* Adiciona espaço interno de 10px no topo e na parte inferior do rodapé */
+}
+
+/* Estilize o texto do footer */
+footer p {
+    margin: 0; /* Remove as margens padrão do parágrafo no rodapé */
+}
